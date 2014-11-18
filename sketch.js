@@ -27,5 +27,5 @@ function draw() {
 
 function drawDoor(x,y,w,h){
 	fill(209,225,44);
-    rect(10,10,300,500);
+    rect(x,y,w,h);
 }
