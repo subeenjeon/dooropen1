@@ -1,5 +1,7 @@
 var downCount;
 var down;
+var draw;
+var drawSpider;
 
 function setup(){
 	createCanvas(420,600);
