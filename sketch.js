@@ -1,9 +1,9 @@
 var openCount;
 var open;
-var count; 
+var count;
 
 function setup(){
-	createCanvas(1000,1000;
+	createCanvas(420,600);
 	count=0;
   	open=0;
   	openCount=0;
@@ -16,8 +16,8 @@ function draw() {
 
 	drawDoor(30, 370, open, 200);
 	open=open-1;
-	if(open>+10){
-		open=+10;
+	if(open>-10){
+		open=-10;
 	}
 	openCount=openCount+1;
 	if(openCount>200){
