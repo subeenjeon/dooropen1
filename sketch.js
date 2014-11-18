@@ -19,7 +19,7 @@ function draw() {
 	if(open>+10){
 		open=+10;
 	}
-	openCount=openCount-1;
+	openCount=openCount+1;
 	if(openCount>200){
 		open=0;
 		openCount=0;
