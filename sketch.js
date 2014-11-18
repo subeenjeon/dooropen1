@@ -32,3 +32,10 @@ function drawDoor(x,y,w,h){
 	fill(209,225,44);
     rect(x,y,w,h);
 }
+
+function drawBG(){
+	noStroke();
+
+	fill(255);
+	rect(0, 0, 420, 600);
+}
