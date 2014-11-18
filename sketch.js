@@ -3,7 +3,7 @@ var open;
 var count;
 
 function setup(){
-	createCanvas(420,600);
+	createCanvas(1000,1000;
 	count=0;
   	open=0;
   	openCount=0;
