@@ -30,7 +30,7 @@ function draw() {
 
 function drawDoor(x,y,w,h){
 	fill(255,0,0);
-    rect(300,y,w,h);
+    rect(600,y,w,h);
 }
 
 function drawBG(){
