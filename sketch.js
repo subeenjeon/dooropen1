@@ -3,7 +3,7 @@ var open;
 var count;
 
 function setup(){
-	createCanvas(420,600);
+	createCanvas(1000,600);
 	count=0;
   	open=0;
   	openCount=0;
@@ -14,7 +14,7 @@ function draw() {
 	drawBG();
 
 
-	drawDoor(30, 370, open, 500);
+	drawDoor(30, 370, open, 200);
 	open=open-1;
 	if(open>-10){
 		open=-10;
@@ -30,7 +30,7 @@ function draw() {
 
 function drawDoor(x,y,w,h){
 	fill(255,0,0);
-    rect(600,y,w,h);
+    rect(1000,y,w,h);
 }
 
 function drawBG(){
