@@ -14,13 +14,13 @@ function draw() {
 	drawBG();
 
 
-	drawDoor(30, 370, open, 200);
+	drawDoor(30, 370, open, 400);
 	open=open-1;
 	if(open>-10){
 		open=-10;
 	}
 	openCount=openCount+1;
-	if(openCount>200){
+	if(openCount>400){
 		open=0;
 		openCount=0;
 	}
