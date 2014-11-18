@@ -15,7 +15,7 @@ function draw() {
 
 
 	drawDoor(30, 370, open, 200);
-	open=open+1;
+	open=open-1;
 	if(open>+10){
 		open=+10;
 	}
