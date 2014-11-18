@@ -24,3 +24,8 @@ function draw() {
 }
 
 /*translate(60,timing*250);*/
+
+function drawDoor(x,y,w,h){
+	fill(209,225,44);
+    rect(x,y,w,h);
+}
