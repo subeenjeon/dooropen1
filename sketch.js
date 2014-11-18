@@ -12,7 +12,7 @@ function setup(){
 
 function draw() {
 	drawDoor(10, 10, 50, open);
-	open=open+1;
+	open=open-1;
 	if(open>-10){
 		open=-10;
 	}
