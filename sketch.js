@@ -11,7 +11,7 @@ function setup(){
 }
 
 function draw() {
-	drawDoor(10, 10, 50, open);
+	drawDoor(30, 370, 10, open);
 	open=open-1;
 	if(open>-10){
 		open=-10;
